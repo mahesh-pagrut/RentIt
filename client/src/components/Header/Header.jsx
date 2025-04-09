@@ -8,7 +8,7 @@ const Header = () => {
         <div className="h-container paddings innerWidth flexCenter">
             <img src="./logo.png" alt="logo"  width={100}/>
 
-            <div className="h-menu">
+            <div className="h-menu flexCenter">
                 <a href="">Residencies</a>
                 <a href="">Our Values</a>
                 <a href="">Contact Us</a>
