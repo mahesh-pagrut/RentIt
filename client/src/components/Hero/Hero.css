@@ -8,8 +8,49 @@
 
 .hero-container{
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
+}
+
+/* left side */
+.hero-left{
+    gap: 3rem;
+}
+
+.hero-title{
+    position:relative;
+    z-index: 1;
+}
+
+.hero-title>h1{
+    font-weight: 600;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle{
+    height: 4rem;
+    width: 4rem;
+    background: var(--orange-gradient);
+    border-radius: 999px;
+    position: absolute;
+    right: 28%;
+    top: -10%;
+    z-index: -1;
+}
+
+.search-bar{
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.search-bar input{
+    border: none;
+    outline: none;
 }
 
 /* right side */
