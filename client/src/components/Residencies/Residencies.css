@@ -1,5 +1,10 @@
+.r-container{
+    overflow: hidden;
+}
+
 .r-head{
     margin-bottom: 2rem;
+    padding-left: 2rem;
 }
 
 .r-card{
