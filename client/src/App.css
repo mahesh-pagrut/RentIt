@@ -5,8 +5,9 @@
 }
 
 .App>:nth-child(1){
-    background: var(--black);
+    /* background: var(--black); */
     position: relative;
+    z-index: 0;
 }
 
 .white-gradient{
@@ -16,4 +17,5 @@
     background:rgba(255, 255,255, 0.522);
     filter:blur(100px);
     border-radius: 100px;
+    z-index: 1;
 }
