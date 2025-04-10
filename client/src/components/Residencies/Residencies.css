@@ -51,10 +51,10 @@
     overflow: visible;
 }
 .r-swiper-container {
-    position: relative; /* Container for absolute buttons */
+    position: relative; 
   }
   
-  /* Buttons stick to top-right corner inside swiper */
+  
   .r-buttons {
     position: absolute;
     top: -3rem;
