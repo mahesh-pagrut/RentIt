@@ -50,15 +50,22 @@
 .swiper:horizontal{
     overflow: visible;
 }
-
-.r-buttons{
+.r-swiper-container {
+    position: relative; /* Container for absolute buttons */
+  }
+  
+  /* Buttons stick to top-right corner inside swiper */
+  .r-buttons {
     position: absolute;
+    top: -3rem;
+    right: 1rem;
+    z-index: 10;
+    display: flex;
     gap: 1rem;
-    top: -4rem;
-    right: 0;
-}
-
-.r-buttons button{
+  }
+  
+  /* Button styles */
+  .r-buttons button {
     font-size: 1.2rem;
     padding: 0.2rem 0.8rem;
     color: blue;
@@ -66,19 +73,13 @@
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.r-buttons>:nth-child(1){
-    background-color: #EEEEFF;
-
-}
-
-.r-buttons>:nth-child(2){
+  }
+  
+  .r-buttons button:first-child {
+    background-color: #eeeeff;
+  }
+  
+  .r-buttons button:last-child {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
-
-}
-
-
-
-
-
+  }
+  
