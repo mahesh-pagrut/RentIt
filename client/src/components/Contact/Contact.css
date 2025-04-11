@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 
-c.c-container>div{
+.c-container>div{
     flex: 1;
 }
 
@@ -14,3 +14,4 @@ c.c-container>div{
 .c-left{
     gap: 0.5rem;
 }
+
