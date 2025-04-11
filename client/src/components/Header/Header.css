@@ -1,7 +1,6 @@
 .h-wrapper{
     color: white;
     background-color: var(--black);
-
 }
 
 .h-container{
@@ -13,6 +12,10 @@
 
 .h-menu{
     gap: 2rem;
+}
+
+.logo{
+    width: 12rem;
 }
 
 .h-menu>*:hover{
