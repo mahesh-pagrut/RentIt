@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 import {
     Accordion,
@@ -15,6 +15,7 @@ import './Value.css'
 import data from '../../utils/accordion'
 
 const Value = () => {
+
   return (
     <section className="v-wrapper">
       <div className="paddings innerWidth flexCenter v-container">
@@ -41,10 +42,16 @@ const Value = () => {
           >
             {
               data.map((item, i) => {
+                const [className, setClassName] = useState(null)
                 return (
-                  <AccordionItem className='accordionItem' key={i} uuid={i}>
+
+                  <AccordionItem className={`accordionItem ${className}`} key={i} uuid={i}>
                       <AccordionItemHeading>
-                        <AccordionItemButton>
+                        <AccordionItemButton className='flexCenter accordionButton'>
+
+                          <AccordionItemState>
+                            {({expanded}) => expanded ? setClassName("expanded") : setClassName("collapsed")}
+                          </AccordionItemState>
                           <div className="flexCenter icon">{item.icon}</div>
                           <span className="primaryText">{item.heading}</span>
                           <div className="flexCenter icon">
@@ -65,5 +72,6 @@ const Value = () => {
     </section>
   )
 }
+
 
 export default Value
