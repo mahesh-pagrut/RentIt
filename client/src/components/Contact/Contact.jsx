@@ -26,12 +26,28 @@ const Contact = () => {
                     <MdCall size={25} />
                   </div>
                   <div className="flexColStart detail">
-                    <span>Call</span>
-                    <span>012 123 124 155</span>
+                    <span className="primaryText">Call</span>
+                    <span className="secondaryText">012 123 124 155</span>
                   </div>
                 </div>
                 <div className="flexCenter button">Call Now</div>
               </div>
+
+              {/* second mo?de */}
+
+              <div className="flexColCenter mode">
+                <div className="flexStart">
+                  <div className="flexCenter icon">
+                    <BsFillChatDotsFill size={25} />
+                  </div>
+                  <div className="flexColStart detail">
+                    <span className="primaryText">Chat</span>
+                    <span className="secondaryText">012 123 124 155</span>
+                  </div>
+                </div>
+                <div className="flexCenter button">Chat Now</div>
+              </div>
+
             </div>
           </div>
         </div>
