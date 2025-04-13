@@ -83,3 +83,15 @@
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.10);
   }
   
+  @media (max-width:640px){
+    .r-head{
+        align-items: center;
+    }
+    .r-buttons {
+        position: initial;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        width: 100%;
+   }
+}
