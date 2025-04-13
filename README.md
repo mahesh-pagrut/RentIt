@@ -53,8 +53,8 @@ Ensure you have the following installed:
 ### 📂 Installation & Setup
 #### 1️⃣ Clone the repository
 ```sh
-git clone https://github.com/your-username/coinpulse.git
-cd coinpulse 
+git clone https://github.com/mahesh-pagrut/RentIt
+cd RentIt
 ```
 #### 2️⃣ Install dependencies
 ```sh
@@ -68,6 +68,7 @@ npm run dev
 
 ### 📸 Using CoinPulse
 
-- 1️⃣ Track Crypto Prices – View live market data and historical trends.
-- 2️⃣ Switch Currencies – Convert values between USD, EUR, and INR.
-- 3️⃣ Analyze Market Trends – Use interactive charts to track price movements.
+- 1️⃣  Browse listings and view property details.
+- 2️⃣  Use the accordion to explore amenities and value propositions.
+- 3️⃣  Responsive navigation and interactions on all screen sizes.
+- 4️⃣  View live stats using the animated counters.
