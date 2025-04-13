@@ -11,6 +11,9 @@ const GetStarted = () => {
             Subscribe now to explore unbeatable rental deals <br />
             and discover your next perfect residence.
           </span>
+          <button className="button">
+            <a href="mailto:maheshdpmayshu@gmail.com">Get Started</a>
+          </button>
         </div>
       </div>
     </section>
