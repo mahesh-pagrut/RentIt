@@ -3,22 +3,14 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
+    background-color: var(--black);
     
 }
 
-.hero-bg {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: var(--black);
-    z-index: 0;
-  }
 
 .hero-container{
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     position: relative;
     z-index: 1;
 
@@ -93,4 +85,10 @@
     width: 100%;
     height: 100%;
 
+}
+
+@media (max-width:640px) {
+    .hero-container{
+        margin-top: 2rem;
+    }
 }
