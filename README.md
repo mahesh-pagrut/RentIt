@@ -6,7 +6,7 @@
 Whether you're looking for a cozy apartment or a luxurious villa, RentIt is your gateway to the perfect place.
 
 ## 🚀 Deployed App
-**Live Demo:** [RentIt](-----)
+**Live Demo:** [RentIt](https://rent-it-vert.vercel.app/)
 
 ## 📌 Features
 - **Property Search:** Easily search for available rentals by location.
