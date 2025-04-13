@@ -16,3 +16,10 @@
 .inner-container .secondaryText{
     color: rgba(255, 255, 255, 0.587)
 }
+
+.inner-container .button{
+    background: #5a73d7;
+    border: 2px solid white;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
+}
