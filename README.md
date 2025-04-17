@@ -64,7 +64,7 @@ npm install
 ```sh
 npm run dev
 ```
-**CoinPulse will now be running at**  (http://localhost:3000/) 🎉
+**RentIt will now be running at**  (http://localhost:3000/) 🎉
 
 ### 📸 Using RentIt
 
