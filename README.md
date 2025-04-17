@@ -66,7 +66,7 @@ npm run dev
 ```
 **CoinPulse will now be running at**  (http://localhost:3000/) 🎉
 
-### 📸 Using CoinPulse
+### 📸 Using RentIt
 
 - 1️⃣  Browse listings and view property details.
 - 2️⃣  Use the accordion to explore amenities and value propositions.
